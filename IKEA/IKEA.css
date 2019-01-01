@@ -1,3 +1,90 @@
-div{
-    border: 1px brown solid;
+
+body{
+      margin-left:0.5%;
+      margin-right:0.5%;
+}
+/*导航栏上部*/
+#top,#top1,#top2,#top3,#dhl,#gdtt,.mkk,.mkk4{
+      display: flex;
+      flex-wrap: wrap;
+}
+#top{
+      justify-content:flex-end;
+      margin-left:2%;
+}
+#top1{
+      flex: 2;
+      margin: auto;
+}
+#top2{
+      flex: 3;
+      margin: auto;
+}
+#top3{
+      flex: 4;
+      justify-content: flex-end;
+}
+.top3x {
+      margin: 1%;
+}
+#dhl{
+      background-color: #0051BA;
+      color:white;
+      margin-left: 2%;
+      margin-right: 2%;
+}
+#dhl a{
+      color: white;
+}
+#dh2{
+      margin-left: auto;
+}
+#gdtt{
+      justify-content:space-around;
+      margin-top: 5px;
+}
+#gdtt button{
+      align-self:center;
+}
+
+#all{
+      margin-left: 10%;
+      margin-right: 10%;
+}
+.mkb{
+      width: 100%;
+}
+.mkk{
+      justify-content: space-between;
+      width: 100%;
+}
+
+.mkk4{
+      width: 100%;padding-top: 20px;justify-content: space-between;
+}
+.p4{
+      width:250px
+}
+.anl{
+      margin-right: -50px;align-self: center;
+}
+.anr{
+      margin-left: -50px;align-self: center;
+}
+#mkk-end{
+      display: flex;justify-content: space-between;
+      width: 100%;margin-top: 2%;margin-bottom: 10%;
+}
+#fjlj{
+      display: flex;justify-content: space-between; flex-wrap: wrap;
+      width: 100%;border-bottom:darkgray solid 1px;padding-bottom: 3%;
+}
+
+#mkk-gray{
+      display: flex;justify-content: space-between; flex-wrap: wrap;
+      width: 100%;background-color: #D3D3D3;margin-top: 1%;
+}
+
+#mkk-darkgray{
+      display:width:100%;justify-content: center;background-color:#666666;
 }
