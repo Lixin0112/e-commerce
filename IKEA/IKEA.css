@@ -3,6 +3,7 @@ body{
       margin-left:0.5%;
       margin-right:0.5%;
 }
+#logo{display:flex;flex-wrap: wrap;padding-bottom:2% }
 /*导航栏上部*/
 #top,#top1,#top2,#top3,#dhl,#gdtt,.mkk,.mkk4{
       display: flex;
@@ -86,5 +87,30 @@ body{
 }
 
 #mkk-darkgray{
-      display:width:100%;justify-content: center;background-color:#666666;
+      display: flex;width:100%;justify-content: center;background-color:#666666;
+}
+/*个人账户页面*/
+#account{
+      margin-left:18%;margin-right: 18%;margin-top:2%;
+}
+#account1{
+      border-bottom:1px #DDDDDD solid;padding-bottom: 1%;margin-bottom: 1%;padding-left:0.5%;
+}
+#account2-1{
+      background-color: #F6F6F6;padding-top: 1%;padding-bottom: 1%;padding-left:1%;border:1px #DDDDDD solid;
+}
+#account2-2{
+      border:1px #DDDDDD solid; border-top:0; padding:4%
+}
+#account2-2-1{
+      border-bottom:3px #DDDDDD solid;
+}
+#account2-2-2{
+      display:flex;margin-bottom: 8%;
+}
+#account2-2-2left,#account2-2-2center,#account2-2-2right{
+      flex: 1;
+}
+#account2-2-3{
+      border-bottom:3px #DDDDDD solid;
 }
